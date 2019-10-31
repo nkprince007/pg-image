@@ -1,6 +1,6 @@
 # Equivalent of cookiecutter-django file compose/production/postgres/Dockerfile using postgres 10 but using alpine as the base.
 
-FROM postgres:10-alpine
+FROM mdillon/postgis:10-alpine
 
 LABEL name=django-mobans-pg-image \
       version=0.1 \

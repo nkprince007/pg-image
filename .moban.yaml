@@ -2,7 +2,7 @@ image:
   name: django-mobans-pg-image
   version: 0.1
   maintainer: jayvdb@gmail.com
-  parent: postgres:10-alpine
+  parent: mdillon/postgis:10-alpine
   comment:
     Equivalent of cookiecutter-django file
     compose/production/postgres/Dockerfile
